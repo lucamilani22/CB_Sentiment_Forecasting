@@ -1,0 +1,16 @@
+Roberta_2_class_best_checkpoint
+
+https://drive.google.com/drive/folders/1vGqHY-H_JoxpWaJjTn9Z8-yd6Jk-g7nq?usp=drive_link
+
+Roberta_2_class_best_macro_f1
+
+https://drive.google.com/drive/folders/1i2XPN3CnkyijMde0lIviFnljD7mRDYeg?usp=drive_link
+
+Roberta_5_class_best_checkpoint
+
+https://drive.google.com/drive/folders/100HWpcjdhs_77dLMGgF1C9DA0p8ZIcT3?usp=drive_link
+
+Roberta_5_class_best_macro_f1_weighted
+
+https://drive.google.com/drive/folders/1YOVd_NEtWWW_VxZSafHCQZ09MuBuee86?usp=drive_link
+
