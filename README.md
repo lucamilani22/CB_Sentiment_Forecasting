@@ -23,7 +23,7 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 │   ├── BERT.ipynb
 │   ├── CLASSIC_ML.ipynb
 │   ├── ABSA.ipynb
-│   ├── 8_ABSA_2.ipynb
+│   ├── ABSA_2.ipynb
 │   ├── new_fed_sarimax.ipynb
 │   ├── new_ecb_sarimax.ipynb
 │   ├── link_to_models.txt
@@ -58,9 +58,11 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 
 ### A) Environment
 create env
-`python -m venv .venv
+```
+python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt`
+pip install -r requirements.txt
+```
 
 ### B) Typical workflow
 
@@ -82,7 +84,7 @@ pip install -r requirements.txt`
    - **Temporal experiments**: `TEMPORAL_TRIALS.ipynb` (random vs time-aware splits)
 
 5. **ABSA pipeline**  
-   Run: `ABSA.ipynb` and `8_ABSA_2.ipynb`  
+   Run: `ABSA.ipynb` and `ABSA_2.ipynb`  
    (LDA topics + FinBERT sentiment)
 
 6. **Time-series integration**
