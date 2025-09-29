@@ -12,7 +12,7 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 > **Headline result:** Adding RoBERTa-based sentiment to SARIMAX reduced **ECB RMSE by 32.8% (8.53 → 5.64)**, while gains for the Fed were modest.
 
 ## Repository structure
-.
+```
 ├── README.md
 ├── requirements.txt
 ├── Notebooks/
@@ -52,7 +52,7 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 │       └── Loughran-McDonald_dictionary.csv
 └── Report/
     └── project_report_10.pdf
-
+```
 
 ## How to reproduce
 
