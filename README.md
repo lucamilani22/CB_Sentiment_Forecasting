@@ -15,6 +15,7 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 .
 ├── README.md
 ├── requirements.txt
+├── .gitignore
 ├── Notebooks/
 │   ├── webscraper.ipynb
 │   ├── data_merge.ipynb
