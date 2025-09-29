@@ -13,45 +13,25 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 
 ## Repository structure
 ```
-├── README.md
-├── requirements.txt
-├── Notebooks/
-│   ├── webscraper.ipynb
-│   ├── data_merge.ipynb
-│   ├── 3_EDA.ipynb
-│   ├── TEMPORAL_TRIALS.ipynb
-│   ├── BERT.ipynb
-│   ├── CLASSIC_ML.ipynb
-│   ├── ABSA.ipynb
-│   ├── ABSA_2.ipynb
-│   ├── new_fed_sarimax.ipynb
-│   ├── new_ecb_sarimax.ipynb
-│   ├── link_to_models.txt
-│   └── data/
-│       ├── all_ECB_speeches.csv
-│       ├── cleaned_sentiment_data.csv
-│       ├── ECB_data.csv
-│       ├── federal_reserve_speeches.csv
-│       ├── FEDFUNDS.csv
-│       ├── temporal_aware_classification_A.csv
-│       ├── final_v2.csv
-│       ├── 5_way_class.csv
-│       ├── consumer_confidence_cleaned.csv
-│       ├── fed_ecb_weekly_similarity.csv
-│       ├── fed_ecb_similarity.csv
-│       ├── unemployment_clean.csv
-│       ├── gdp_clean.csv
-│       ├── infl_exp_clean.csv
-│       ├── inflation_cleaned.csv
-│       ├── oil_clean.csv
-│       ├── temporal_aware_classification_K.csv
-│       ├── yield_clean.csv
-│       ├── train_df1.csv
-│       ├── enriched_speech_data.csv
-│       ├── enhanced_sentiment_scores.csv
-│       └── Loughran-McDonald_dictionary.csv
+.
+├── README.md                           # project documentation (this file)
+├── requirements.txt                    # Python dependencies
+├── Notebooks/                          # main Jupyter notebooks
+│   ├── webscraper.ipynb                # scrape ECB & Fed speeches
+│   ├── data_merge.ipynb                # merge & clean speech + macro datasets
+│   ├── EDA.ipynb                       # exploratory data analysis
+│   ├── TEMPORAL_TRIALS.ipynb           # time-aware vs random splits experiments
+│   ├── BERT.ipynb                      # RoBERTa fine-tuning for sentiment classification
+│   ├── CLASSIC_ML.ipynb                # TF-IDF + Logistic Regression baseline
+│   ├── ABSA.ipynb                      # Aspect-Based Sentiment Analysis (LDA + FinBERT)
+│   ├── ABSA_2.ipynb                    # alternative ABSA pipeline experiments
+│   ├── new_fed_sarimax.ipynb           # SARIMAX with Fed data + NLP signals
+│   ├── new_ecb_sarimax.ipynb           # SARIMAX with ECB data + NLP signals
+│   ├── link_to_models.txt              # text file with model links/references
+│   └── data/                           # link to data since too heavy
+│       └── data_links.txt
 └── Report/
-    └── project_report_10.pdf
+    └── project_report_10.pdf           # full project report (methods & results)
 ```
 
 ## How to reproduce
