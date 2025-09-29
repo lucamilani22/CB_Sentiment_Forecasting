@@ -15,7 +15,6 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 .
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 ├── Notebooks/
 │   ├── webscraper.ipynb
 │   ├── data_merge.ipynb
@@ -27,17 +26,17 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 │   ├── 8_ABSA_2.ipynb
 │   ├── new_fed_sarimax.ipynb
 │   ├── new_ecb_sarimax.ipynb
-│   ├── Link to models.txt
+│   ├── link_to_models.txt
 │   └── data/
 │       ├── all_ECB_speeches.csv
 │       ├── cleaned_sentiment_data.csv
 │       ├── ECB_data.csv
 │       ├── federal_reserve_speeches.csv
 │       ├── FEDFUNDS.csv
-│       ├── temporal_aware_classifica…a.csv
+│       ├── temporal_aware_classification_A.csv
 │       ├── final_v2.csv
 │       ├── 5_way_class.csv
-│       ├── consumer_confidence_cl…d.csv
+│       ├── consumer_confidence_cleaned.csv
 │       ├── fed_ecb_weekly_similarity.csv
 │       ├── fed_ecb_similarity.csv
 │       ├── unemployment_clean.csv
@@ -45,7 +44,7 @@ We fine-tune **RoBERTa** classifiers and run **aspect-based sentiment analysis (
 │       ├── infl_exp_clean.csv
 │       ├── inflation_cleaned.csv
 │       ├── oil_clean.csv
-│       ├── temporal_aware_classific…K.csv
+│       ├── temporal_aware_classification_K.csv
 │       ├── yield_clean.csv
 │       ├── train_df1.csv
 │       ├── enriched_speech_data.csv
